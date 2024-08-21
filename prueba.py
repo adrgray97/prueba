@@ -45,7 +45,11 @@ consumo = [{
 }, {
     "tipo":"papitas",
     "nombre":"caca",
-    "precio": 25
+    "precio": 25,
+}, {
+    "tipo":"botana",
+    "nombre":"caca",
+    "precio": 87
 }]
 
 print(asignar_nombres(consumo))
