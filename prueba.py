@@ -57,22 +57,22 @@ print(asignar_nombres(consumo))
 
 
 
-# def generar_ticket (consumido):
-#     tipo = ""
-#     total_bebida = 0
-#     total_botana = 0
-#     resultado = []    
-#     for ticket in consumido:
-#         tipo = ticket["tipo"]
-#         if tipo == "bebida":
-#             total_bebida = total_bebida + ticket["precio"]
-#         if tipo == "botana":
-#             total_botana = total_botana + ticket["precio"]
-#     resultado.append({"tipo": "bebida",
-#                       "total": total_bebida})
-#     resultado.append({"tipo": "botana",
-#                       "total": total_botana})
-#     print (resultado)
+def generar_ticket (consumido):
+    tipo = ""
+    total_bebida = 0
+    total_botana = 0
+    resultado = []    
+    for ticket in consumido:
+        tipo = ticket["tipo"]
+        if tipo == "bebida":
+            total_bebida = total_bebida + ticket["precio"]
+        if tipo == "botana":
+            total_botana = total_botana + ticket["precio"]
+    resultado.append({"tipo": "bebida",
+                      "total": total_bebida})
+    resultado.append({"tipo": "botana",
+                      "total": total_botana})
+    print (resultado)
 
 
 
